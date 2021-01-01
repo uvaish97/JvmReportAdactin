@@ -1,0 +1,236 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 23,
+        "name": "Verifying the adactin hotel login details with valid credentials",
+        "description": "",
+        "id": "verifying-the-adactin-hotel-login-details;verifying-the-adactin-hotel-login-details-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 20192158100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the adactin login page",
+            "match": {
+              "location": "Stepdefinition.user_is_on_the_adactin_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4717036600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should enter \"uvaishjj\" and \"MCM9J3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"uvaishjj\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"MCM9J3\"",
+                  "offset": 33
+                }
+              ],
+              "location": "Stepdefinition.user_should_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2895602400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should enter the Room Details\"Sydney\",\"Hotel Creek\",\"Standard\",\"2 - Two\",\"17/12/2020\",\"18/12/2020\",\"2 - Two\"and\"2 - Two\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"Standard\"",
+                  "offset": 57
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 68
+                },
+                {
+                  "val": "\"17/12/2020\"",
+                  "offset": 78
+                },
+                {
+                  "val": "\"18/12/2020\"",
+                  "offset": 91
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 104
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 116
+                }
+              ],
+              "location": "Stepdefinition.user_should_enter_the_Room_Details_and(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 982944900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should click the search button",
+            "match": {
+              "location": "Stepdefinition.user_should_click_the_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 912712300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should select the room by clicking radio button and click continue",
+            "match": {
+              "location": "Stepdefinition.user_should_select_the_room_by_clicking_radio_button_and_click_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1614993200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should enter the payment details\"mohammed\",\"uvaish\",\"madurai\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mohammed\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"uvaish\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"madurai\"",
+                  "offset": 57
+                }
+              ],
+              "location": "Stepdefinition.user_should_enter_the_payment_details(String,String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "cardNumber",
+                  "cardType",
+                  "month",
+                  "year",
+                  "cvvNumber"
+                ]
+              },
+              {
+                "cells": [
+                  "1234567890123456",
+                  "VISA",
+                  "January",
+                  "2022",
+                  "123"
+                ]
+              },
+              {
+                "cells": [
+                  "1234567890134534",
+                  "American Express",
+                  "March",
+                  "2021",
+                  "445"
+                ]
+              },
+              {
+                "cells": [
+                  "1234567890122345",
+                  "Master Card",
+                  "June",
+                  "2022",
+                  "989"
+                ]
+              },
+              {
+                "cells": [
+                  "1234567890122345",
+                  "Other",
+                  "July",
+                  "2021",
+                  "674"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10114332500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user should click the book now button",
+            "match": {
+              "location": "Stepdefinition.user_should_click_the_book_now_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 94329700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "get order id in console",
+            "match": {
+              "location": "Stepdefinition.get_order_id_in_console()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3157025400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user should click the my itenerary button",
+            "match": {
+              "location": "Stepdefinition.user_should_click_the_my_itenerary_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verifying the adactin hotel login details",
+    "description": "",
+    "id": "verifying-the-adactin-hotel-login-details",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature/Feature.feature",
+    "tags": []
+  }
+]

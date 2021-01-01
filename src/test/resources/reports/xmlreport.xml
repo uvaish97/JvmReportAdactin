@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="46.455482">
+<testcase classname="Verifying the adactin hotel login details" name="Verifying the adactin hotel login details with valid credentials" time="46.455482">
+<system-out><![CDATA[Given User is on the adactin login page.....................................passed
+When User should enter "uvaishjj" and "MCM9J3"..............................passed
+And User should enter the Room Details"Sydney","Hotel Creek","Standard","2 - Two","17/12/2020","18/12/2020","2 - Two"and"2 - Two".passed
+And user should click the search button.....................................passed
+And user should select the room by clicking radio button and click continue.passed
+And user should enter the payment details"mohammed","uvaish","madurai"......passed
+And user should click the book now button...................................passed
+And get order id in console.................................................passed
+Then user should click the my itenerary button..............................passed
+]]></system-out>
+</testcase>
+</testsuite>
